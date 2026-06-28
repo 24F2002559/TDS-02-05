@@ -15,8 +15,8 @@ app.add_middleware(
 )
 
 # Your assigned API key (get it from the environment for security)
-API_KEY = os.environ.get("API_KEY", "ak_30ezcor2zukbe0pv6mfb82h7")
-MY_EMAIL = "your-email@example.com"   # <-- PUT YOUR REAL EMAIL HERE
+API_KEY = os.environ.get("API_KEY")
+MY_EMAIL = "24f2002559@ds.study.iitm.ac.in"
 
 # Model for incoming events
 class Event(BaseModel):
